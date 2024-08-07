@@ -1,0 +1,20 @@
+iniciar prisma (terminal):
+- npm i prisma -D (criar arquivos do prisma)
+- npm i @prisma/client (permite conexão com bdd)
+- npx prisma init --datasource-provider mysql (usar mysql)
+
+criar e executar a migration:
+- npx prisma migrate dev --name init
+
+ver banco: npx prisma studio
+
+Inserir informações:
+"async function main() {
+  const data = [{ name: 'Fulano' }, { name: 'Beltrano' }
+];
+  await prisma.user.createMany({ data });
+}" 
+seria o "INSERT INTO `users` (`name`) 
+VALUES (`Fulano`), (`Beltrano`)"
+
+- findmany = SELECT * FROM `users`;
