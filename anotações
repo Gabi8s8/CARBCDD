@@ -1,4 +1,5 @@
 iniciar prisma (terminal):
+- criar package.json e abrir chaves {}
 - npm i prisma -D (criar arquivos do prisma)
 - npm i @prisma/client (permite conexão com bdd)
 - npx prisma init --datasource-provider mysql (usar mysql)
