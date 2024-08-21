@@ -19,3 +19,5 @@ seria o "INSERT INTO `users` (`name`)
 VALUES (`Fulano`), (`Beltrano`)"
 
 - findmany = SELECT * FROM `users`;
+
+Instalar: npm i @faker-js/faker -D
