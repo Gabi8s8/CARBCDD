@@ -6,6 +6,8 @@ iniciar prisma (terminal):
 
 criar e executar a migration:
 - npx prisma migrate dev --name init
+OU
+- npx prisma db push E npx prisma generate
 
 ver banco: npx prisma studio
 
